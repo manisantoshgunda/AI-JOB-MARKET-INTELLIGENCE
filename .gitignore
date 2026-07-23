@@ -1,44 +1,23 @@
-# ==========================
 # Python
-# ==========================
 __pycache__/
 *.py[cod]
 *.pyo
 
 # Virtual Environment
 venv/
-.venv/
-env/
 
 # Environment Variables
 .env
 
-# Logs
-*.log
+# Uploaded resumes
+uploads/
 
-# Database
-*.db
-*.sqlite3
+# Generated files
+resume_analysis.pdf
 
-# IDE
+# VS Code
 .vscode/
-.idea/
 
-# OS Files
+# OS files
 .DS_Store
 Thumbs.db
-
-# Uploads
-uploads/*.pdf
-uploads/*.docx
-
-# Python Cache
-.pytest_cache/
-.mypy_cache/
-
-# Build
-build/
-dist/
-
-# Jupyter
-.ipynb_checkpoints/

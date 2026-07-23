@@ -1,42 +1,133 @@
-# AI-Powered Job Market Intelligence Platform
+# 🤖 AI-Powered Job Market Intelligence Platform
 
-## Overview
+An AI-powered web application that helps students and job seekers analyze the job market, evaluate resumes using ATS principles, identify skill gaps, and receive personalized job recommendations.
 
-AI-Powered Job Market Intelligence Platform is a web application that combines Generative AI and Big Data Analytics to help job seekers understand current hiring trends and improve their resumes based on market demand.
+---
 
-The platform analyzes thousands of job postings using PySpark and provides AI-powered career recommendations, skill gap analysis, ATS score estimation, and resume-job matching.
+## 📌 Project Overview
 
-## Key Features
+The AI-Powered Job Market Intelligence Platform is designed to bridge the gap between job seekers and industry requirements.
 
-- Resume Upload and Analysis
-- ATS Score Estimation
-- Resume vs Job Description Matching
-- Skill Gap Detection
-- AI Career Recommendations
-- Trending Skills Dashboard
-- Salary Insights
-- Company Hiring Analytics
-- Interactive Visualizations
+The application analyzes job market data and combines it with resume analysis to provide intelligent career recommendations. It helps users understand current hiring trends, improve their resumes, identify missing skills, and discover suitable job opportunities.
 
-## Technology Stack
+---
 
-### Backend
-- FastAPI
+## ✨ Features
+
+- 📊 Interactive Job Market Dashboard
+- 📈 Market Analytics & Visualizations
+- 🤖 AI-Based Job Recommendation Engine
+- 📄 Resume PDF Upload
+- 📊 ATS Resume Score
+- 🎯 Skill Gap Analysis
+- 🤖 AI Career Advisor
+- 🗺️ Personalized Career Roadmap
+- 📄 Resume Analysis PDF Report
+- 📥 CSV Export for Job Recommendations
+
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
 - Streamlit
 
-### AI
-- LangChain
-- OpenAI Compatible LLM
+### Backend
+- Python
 
-### Big Data
-- PySpark
+### Libraries
 - Pandas
-
-### Visualization
+- NumPy
 - Plotly
+- Scikit-learn
+- PyPDF2
+- ReportLab
 
-## Project Status
+### Development Tools
+- Git
+- GitHub
+- VS Code
 
-🚧 Under Development
+---
+
+## 📂 Project Structure
+
+```text
+AI-JOB-MARKET-INTELLIGENCE
+│
+├── app/
+│   ├── analytics.py
+│   ├── career_advisor.py
+│   ├── charts.py
+│   ├── dashboard.py
+│   ├── data_loader.py
+│   ├── market_analyzer.py
+│   ├── pdf_report.py
+│   ├── preprocessing.py
+│   ├── recommendation_engine.py
+│   ├── resume_analyzer.py
+│   ├── resume_ui.py
+│   ├── skill_matcher.py
+│   └── ui.py
+│
+├── data/
+│   └── jobs.csv
+│
+├── uploads/
+├── screenshots/
+├── tests/
+│
+├── streamlit_app.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/manisantoshgunda/AI-JOB-MARKET-INTELLIGENCE.git
+
+Move into the project directory:
+
+```bash
+cd AI-JOB-MARKET-INTELLIGENCE
+```
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+---
+
+## 📸 Screenshots
+
+Screenshots will be added after deployment.
+
+---
+
+## 🎯 Future Enhancements
+
+- User authentication
+- Live job data integration
+- AI-powered resume rewriting
+- Interview preparation assistant
+- Personalized learning recommendations
+
+---
+
+## 👨‍💻 Author
+
+Developed by **G. Mani Santosh**
